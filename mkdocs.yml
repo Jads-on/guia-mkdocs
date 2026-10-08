@@ -1,0 +1,38 @@
+site_name: Guia MkDocs
+site_description: Guia do usuário e referências.
+site_author: Jadson Lins <jjsl2>
+ 
+theme:
+  name: material
+  palette:
+    # Modo Claro
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para modo escuro
+
+    # Modo Escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
+ 
+nav:
+  - Início: index.md
+  - Instalação: instalacao.md
+  - Estruturando Projeto: estruturando_projeto.md
+  - Hospedagem e Github Pages: hospedagem_github_pages.md
+  - Como hospedar com o Github Pages?: como_hospedar.md
+  - Glossário: glossario.md
+  - FAQ: faq.md
+  
+markdown_extensions:
+  - admonition
+
+
